@@ -1,8 +1,98 @@
+/* RESET DEFAULT
+* {
+  margin: 0;
+  padding: 0;
+} */
+
+/* TAG */
+
 body {
   background-color: rgb(253, 251, 251);
 }
 
+a {
+  text-decoration: none;
+  
+}
+
+table {
+  background-color: green;
+  border-color: black;
+  color: white;
+  max-width: 100%;
+  margin: auto;
+
+}
+
+article {
+  width: 40%;
+  display: inline-block;
+
+}
+
+aside {
+  width: 40%;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+}
+
+/* ID */
+
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  padding: 20px 0px 0px;
+  color: white;
+}
+
+#cabecalho ul {
+  list-style: none;
+
+}
+
+#titulo {
+
+}
+
+#minha_foto {
+  padding: ;
+  margin-top: 200px ;
+
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+
+}
+
+#rodape {
+
+  font-style: italic;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 20px;
+
+}
+
+/* CLASS */
+
+.menu a {
+color: white;
+
+}
+
+.menu {
+text-align: left;
+padding: 10px 50px;
+margin: 10px;
+
 }
