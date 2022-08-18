@@ -1,9 +1,3 @@
-/* RESET DEFAULT
-* {
-  margin: 0;
-  padding: 0;
-} */
-
 /* TAG */
 
 body {
@@ -12,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  
+
 }
 
 table {
@@ -22,19 +16,6 @@ table {
   max-width: 100%;
   margin: auto;
 
-}
-
-article {
-  width: 40%;
-  display: inline-block;
-
-}
-
-aside {
-  width: 40%;
-  display: inline-block;
-  text-align: justify;
-  vertical-align: top;
 }
 
 /* ID */
@@ -54,13 +35,9 @@ aside {
 
 }
 
-#titulo {
-
-}
-
 #minha_foto {
   padding: ;
-  margin-top: 200px ;
+  margin-top: 200px;
 
 }
 
@@ -86,13 +63,35 @@ aside {
 /* CLASS */
 
 .menu a {
-color: white;
+  color: white;
 
 }
 
 .menu {
-text-align: left;
-padding: 10px 50px;
-margin: 10px;
+  text-align: left;
+  padding: 10px 50px;
+  margin: 10px;
+
+}
+
+.lado-direito {
+  border: 1px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin: 0;
+  padding: 2px;
+  width: 39%;
+
+}
+
+.lado-esquerdo {
+  border: 1px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin: 0;
+  padding: 2px;
+  width: 60%;
 
 }
